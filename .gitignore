@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+venv_broken/
+env/
+
+# Secrets
+kaggle.json
+.env
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (datasets — too big and licensed)
+data/
+*.zip
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files (too big for GitHub, hosted separately)
+*.keras
+*.h5
+*.pb
